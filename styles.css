@@ -13,7 +13,7 @@
   --saturatedblue: rgb(33, 170, 216);
   --white: #fff;
   --lightgray: rgb(177, 175, 175);
-  --darkblue: hsl(240, 55%, 40%);
+  --darkblue: hsl(240, 54%, 46%);
   --red: rgb(255, 0, 0);
 }
 
@@ -338,6 +338,7 @@ h6 {
 .contact-text h1 {
   font-size: 32px;
   padding-bottom: 1.5rem;
+  text-transform: capitalize;
   color: var(--white);
 }
 
@@ -349,7 +350,7 @@ h6 {
 
 /* Footer Section Styling */
 footer {
-  background-color: var(--darkblue);
+  background-color: #003466;
   padding: 20px 0;
 }
 
@@ -393,6 +394,7 @@ footer {
   text-decoration: none;
   color: var(--white);
   font-size: 14px;
+  padding-right: 1rem;
 }
 
 .nav-links a:hover {
@@ -424,7 +426,7 @@ footer {
 
 .footer-container p {
   font-size: 12px;
-  color: #777;
+  color: #E9E9E9;
   margin: 0;
 }
 
@@ -492,10 +494,6 @@ footer {
   .contact-container {
     grid-template-columns: 1fr;
     grid-gap: 10px;
-  }
-
-  .contact-container img {
-    margin-bottom: 10px;
   }
 
   .contact-text h1 {
