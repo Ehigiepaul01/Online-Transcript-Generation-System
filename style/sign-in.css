@@ -234,12 +234,14 @@ body {
     span {
       margin-left: 5rem;
     }
+
+    .login-container {
+        padding-right: 5rem;
+    }
   }
   
   @media screen and (max-width: 375px) {
-    .login-container {
-      padding: auto;
-    }
+   
   
     .top-header h1 {
       font-size: 1.7rem;
