@@ -209,73 +209,16 @@ body {
   }
   
   @media screen and (max-width: 600px) {
-    img,
-    .bottom1,
-    .bottom2 {
+    img, .bottom1, .bottom2 {
       display: none;
     }
   
     .logo img {
       display: block;
-      width: 120px;
-      height: 50px;
-      margin-bottom: 1.5rem;
+      width: 100px;
+      height: 70px;
+      margin: auto;
     }
-  
-    .remember-me,
-    .remember-me p {
-      font-size: small;
     }
-  
-    .google {
-      padding: 0.7rem;
-    }
-  
-    span {
-      margin-left: 5rem;
-    }
-
-    .login-container {
-        padding-right: 5rem;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-   
-  
-    .top-header h1 {
-      font-size: 1.7rem;
-    }
-  
-    .top-header p {
-      font-size: 0.9rem;
-    }
-  
-    .remember-me,
-    .remember-me p {
-      font-size: 0.7rem;
-    }
-  
-    .remember-me p {
-      margin-left: 2.5rem;
-    }
-  
-    input[type="text"] {
-      width: 90%;
-    }
-  
-    .btn,
-    .google {
-      width: 90%;
-    }
-  
-    .google span {
-      margin-left: 3rem;
-    }
-  
-    .register {
-      font-size: 0.8rem;
-      margin-right: 2rem;
-    }
-  }
+ 
   

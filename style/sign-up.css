@@ -63,7 +63,7 @@ img {
 /* End of Image Styling */
 
 /* Login Container Styling */
-.login-container {
+.signup-container {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -99,6 +99,7 @@ input[type="telephone"] {
   background-color: var(--lightgray);
   border-radius: 0.3rem;
   padding: 0.6rem;
+  margin-top: .8rem;
   width: 100%;
 }
 
@@ -129,7 +130,7 @@ input[type="telephone"] {
   justify-content: center;
   color: var(--gray);
   font-size: 0.9rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .register a {
@@ -141,3 +142,46 @@ input[type="telephone"] {
   color: var(--green);
 }
 /* End of Sign Up Page Styling */
+
+@media screen and (max-width: 768px) {
+    img {
+      width: 45vw;
+      height: 100vh;
+    }
+  
+    .bottom1 {
+      padding-left: 2rem;font-size: 2rem;
+    }
+  
+    .bottom2 {
+      font-size: 1rem;
+      padding-left: 2rem;
+    }
+  
+    .signup-container {
+       padding-left: 1.5rem;
+      padding-top: 3rem; 
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+  img, .bottom1, .bottom2 {
+    display: none;
+  }
+
+  
+  .logo img {
+    display: block;
+    width: 100px;
+    height: 70px;
+    margin: auto;
+  }
+
+  input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"],
+input[type="telephone"], .btn {
+    width: 89%;
+}
+  }
