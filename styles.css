@@ -69,7 +69,7 @@ nav ul li {
 
 nav ul li a {
   color: var(--black);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 
@@ -114,11 +114,6 @@ button {
   background-color: var(--darkblue);
   color: var(--black);
 }
-
-/* .btn-sign-in:hover {
-  color: var(--white);
-  background-color: var(--saturatedblue);
-} */
 /* End of Navigation Styling */
 
 /* Hero Section Styling */
@@ -149,7 +144,7 @@ span {
 
 .left-info p {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 20px;
 }
 
@@ -166,7 +161,7 @@ span {
 
 .get-started {
   padding: 15px 25px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Quicksand", sans-serif;
   background-color: var(--saturatedblue);
   color: var(--white);
@@ -191,7 +186,6 @@ span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  /* margin: 3rem 0; */
 }
 
 .card {
@@ -225,7 +219,7 @@ span {
   border-radius: 4px;
 }
 
-h6 {
+.card h6 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 16px;
@@ -260,8 +254,9 @@ h4 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.8;
+  font-weight: 300;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -293,10 +288,11 @@ p {
 }
 
 .feedback-content p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
 .name {
@@ -305,10 +301,11 @@ p {
   font-weight: normal;
 }
 
-h6 {
+.feedback-content h6 {
   font-weight: normal;
   margin: 0;
   color: var(--saturatedblue);
+  font-size: 20px;
 }
 
 /* Contact Us Section */
@@ -561,6 +558,6 @@ footer {
   }
 
   .contact-text h1 {
-    font-size: 20px;
+    font-size: 24px;
   }
 }

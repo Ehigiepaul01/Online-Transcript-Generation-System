@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transcript</title>
+    <link rel="stylesheet" href="./style/download.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./Images/Logo (1).png" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="right-nav">
+        <img src="./Images/notification 1@2x.png" alt="bell" class="bell" />
+        <img src="./Images/Ellipse 4.png" alt="avatar" />
+
+        <h5>Oluwapelumi Abiodun</h5>
+      </div>
+    </div>
+
+    <!-- Info -->
+    <div class="details-container">
+      <ul class="nav-list">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#">Transcript</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
+
+    <!-- Transcript Container -->
+    <div class="transcript-container">
+      <div class="transcript">
+        <form action="">
+          <div class="info">
+            <label for="faculty" id="faculty">Faculty</label>
+            <select name="faculty" id="faculty-details">
+              <option value="Science">Faculty of Science</option>
+              <option value="Arts">Faculty of Arts</option>
+              <option value="engineering">Faculty of Engineering</option>
+              <option value="medicine">Faculty of Medicine</option>
+              <option value="social science">Faculty of Social Science</option>
+              <option value="law">Faculty of Law</option>
+            </select>
+          </div>
+
+          <div class="info">
+            <label for="department" id="department">Department</label>
+            <select name="department" id="department-details">
+              <option value="Science">Mathematical/Computer Science</option>
+              <option value="Arts">Arts</option>
+              <option value="engineering">Engineering</option>
+              <option value="medicine">Medicine</option>
+              <option value="social science">Social Science</option>
+              <option value="law">Law</option>
+            </select>
+          </div>
+
+          <div class="info">
+            <label for="course" id="course">Course</label>
+            <select name="course" id="course-details">
+              <option value="Science">Computer Science</option>
+              <option value="Arts">Mass Communication</option>
+              <option value="engineering">Mechanical Engineering</option>
+              <option value="medicine">Medicine</option>
+              <option value="social science">Sociology</option>
+              <option value="law">Criminal Law</option>
+              <option value="medicine">Psychology</option>
+            </select>
+          </div>
+
+          <div class="info">
+            <label for="matric" id="matric">Matric Number</label>
+            <input
+              type="text"
+              name="matric"
+              id="matric-number"
+              placeholder="RAM/18/19/2030"
+            />
+          </div>
+
+          <div class="info">
+            <label for="session" id="session">Session</label>
+            <input
+              type="text"
+              name="session"
+              id="session-info"
+              placeholder="21/22"
+            />
+          </div>
+
+          <div class="info">
+            <label for="purpose" id="purpose">Purpose of Transcript</label>
+            <select name="purpose" id="purpose">
+              <option value="admission">Admission Purpose</option>
+              <option value="job">Employment Purpose</option>
+            </select>
+          </div>
+
+          <div class="checkout">
+            <h5>Total Amount: NGN 10,000</h5>
+           <div class="btn"> <button>Continue</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
